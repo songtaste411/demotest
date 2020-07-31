@@ -14,7 +14,7 @@ import java.lang.reflect.Method;
 
 @Aspect
 @Component
-@Order(1)
+@Order
 public class WebLogAspect {
     private static final Logger logger = LoggerFactory.getLogger(WebLogAspect.class);
     @Pointcut("execution(public * com.example.controller..*.*(..))")

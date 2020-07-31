@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import java.lang.reflect.Method;
 @Aspect
 @Component
-@Order(2)
+@Order
 
 
 
