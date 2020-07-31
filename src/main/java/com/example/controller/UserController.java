@@ -17,7 +17,7 @@ public class UserController {
 
     @RequestMapping("/index")
     public String index(){
-        return "index";
+        return "helloJenkins!";
     }
     @RequestMapping("/login")
     public String loging(User user){
